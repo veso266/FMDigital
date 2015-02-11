@@ -34,7 +34,7 @@ Here is a project I have been working on for some time now -- a DRM (DDigital Ra
 ##Download & Use
 - Compile gr-drm and ensure it is working by running the flowgraphs as explained in its readme.
 - Be sure your config.conf has the following in it:
-First Tab:
+
 ```sh
 [audio]
 audio_module = jack
