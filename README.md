@@ -23,3 +23,20 @@ Standards used for this system:
 ====
 #TODO
 - Implement a DRM30 (Robustness mode A) transmitter with multi-service capabilaty in GNURadio
+- 
+
+====
+# BLADERF FORUM THREAD
+
+##Hybrid Digital FM Transmitter
+Here is a project I have been working on for some time now -- a DRM (DDigital Radio), and FM (Stereo) transmitter "inspired" by HD Radio. Using JACK, you can send both standard analog and digital radio with the BladeRF. The digital decodes in Dream, and the FM works perfectly on every receiver I have tested. Instructions on how to use after the screenshots.
+
+##Download & Use
+- Compile gr-drm and ensure it is working by running the flowgraphs as explained in its readme.
+- Be sure your config.conf has the following in it:
+First Tab:
+```sh
+[audio]
+audio_module = jack
+```
+
